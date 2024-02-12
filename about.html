@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Allan's Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .navbar-brand {
+      margin-right: auto;
+      max-width: 30%;
+    }
+    .navbar-nav .nav-link{
+      margin-right:25px;
+    }
+    .navbar-custom {
+      background: linear-gradient(to left, #036b94, #be34b8);
+      background-size: 200% auto;
+      animation: gradientAnimation 0s ease-in infinite;
+    }  
+    .about-section {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+    .section-heading {
+      font-size: 24px;
+      font-weight: bold;
+      color: #036b94;
+      margin-top: 20px;
+    }
+    .list-items {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Allan's Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="about-section">
+      <h1>About Me</h1>
+    </div>
+    
+    <div class="section-heading">Hobbies</div>
+    <ul class="list-items">
+      <li>Coding</li>
+      <li>Cooking, but not doing the dishes after</li>
+      <li>Outdoor activities: camping or playing football</li>
+      <li>Chess</li>
+      <li>Playing music</li>
+    </ul>
+    
+    <div class="section-heading">Skills</div>
+    <ul class="list-items">
+      <li>Bilingual (English, Spanish), some Italian but not fluent</li>
+      <li>Programming languages: Java, C#, Python</li>
+      <li>Database languages: Basic knowledge of SQL and Access</li>
+    </ul>
+  </div>
+</body>
+</html>
